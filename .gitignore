@@ -1,0 +1,7 @@
+# JetBrains IDE
+.idea/
+
+.ipynb_checkpoints
+
+tutorial-env
+/data/*
