@@ -1,41 +1,43 @@
 # Wholesale_And_Retail_Orders_Analysis
 
-Даний проект спрямований на дослідження та аналіз даних замовлень та продажів продуктів за постачальниками.
-Датасет складається з двох таблиць: orders та product-supliers.
+## Description
+This project is aimed at researching and analyzing order and product sales data by suppliers.
+The dataset consists of two tables: orders and product-suppliers.
 
-[Джерело даних](https://www.kaggle.com/datasets/gabrielsantello/wholesale-and-retail-orders-dataset?select=product-supplier.csv)
+## Dataset
+[Dataset source](https://www.kaggle.com/datasets/gabrielsantello/wholesale-and-retail-orders-dataset?select=product-supplier.csv)
 
-Таблиця orders містить дані про продажі та має наступні стовпці:
-- Customer ID - ідентифікатор покупця
-- Customer Status - статус покупця
-- Date Order was placed - дата, коли було зроблено замовлення
-- Delivery Date - дата доставки
-- Order ID - номер замовлення
-- Product ID - ідентифікатор продукту
-- Quantity Ordered - кількість замовленого продукту
-- Total Retail Price for This Order - загальна вартість замовлення
-- Cost Price Per Unit - вартість на одиницю товару
+The orders table contains sales data and includes the following columns:
+- Customer ID - customer identifier
+- Customer Status - customer status
+- Date Order was placed - the date the order was placed
+- Delivery Date - delivery date
+- Order ID - order number
+- Product ID - product identifier
+- Quantity Ordered - quantity of the product ordered
+- Total Retail Price for This Order - total retail price of the order
+- Cost Price Per Unit - cost per unit of the product
 
-Таблиця orders містить дані про товари та постачальників та має наступні стовпці:
-- Product ID - ідентифікатор продукту
-- Product Line - лінійка продукту
-- Product Category - категорія продукту
-- Product Group - група продукту
-- Product Name - назва продукту
-- Supplier Country - країна постачальника
-- Supplier Name - назва постачальника
-- Supplier ID - ідентифікатор постачальника
+The product-suppliers table contains information about products and suppliers and includes the following columns:
+- Product ID - product identifier
+- Product Line - product line
+- Product Category - product category
+- Product Group -  product group
+- Product Name - product name
+- Supplier Country - supplier's country
+- Supplier Name - supplier's name
+- Supplier ID - supplier identifier
 
 
-#### Використані інструменти
+### Technologies
 - Jupiter Notebook
 - Python and Python libraries
 - Tableau
 
 
-#### Основна мета
+### Main goal
 
-Аналіз спрямований на визначення основної аудиторії покупців, найбільш популярних категорій товарів та прибутку за постачальниками.
-Основні показники відображено на [дашборді](https://public.tableau.com/app/profile/margarita.saman/viz/Final_project_17433381473000/Dashboard1?publish=yes) створеного з використанням Tableau.
+The analysis is focused on identifying the main customer audience, the most popular product categories, and the profit by suppliers.
+Key metrics are presented on the [dashboard](https://public.tableau.com/app/profile/margarita.saman/viz/Final_project_17433381473000/Dashboard1?publish=yes) створеного з використанням Tableau.
 
-![img_1.png](img_1.png)
+![img_1.png](data/img_1.png)
