@@ -40,4 +40,4 @@ The product-suppliers table contains information about products and suppliers an
 The analysis is focused on identifying the main customer audience, the most popular product categories, and the profit by suppliers.
 Key metrics are presented on the [dashboard](https://public.tableau.com/app/profile/margarita.saman/viz/Final_project_17433381473000/Dashboard1?publish=yes) створеного з використанням Tableau.
 
-![img_1.png](screenshots/img_1.png)
+![image.png](screenshots/image.png)
